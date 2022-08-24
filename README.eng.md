@@ -3,7 +3,7 @@
 ### **function cashSuffixes TypeScript and JavaScript**
 **Wiki fandom:** [Cash Suffixes](https://minershaven.fandom.com/wiki/Cash_Suffixes)
 
-**Thai Sub :** [README.th.md](README.th.md)
+**Thai Sub :** [README.th.md](README.md)
 
 **Function cashSuffixes TypeScript [cashSuffixes.ts](TypeScript/cashSuffixes.ts)<br>
 Function cashSuffixes JavaScript [cashSuffixes.js](JavaScript/cashSuffixes.js)**
