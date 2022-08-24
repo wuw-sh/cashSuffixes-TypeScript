@@ -13,10 +13,3 @@ export function cashSuffixes(value: number, decimalLength: number = 2): number |
         return value;
     }
 }
-
-//console.log(cashSuffixes(50000000000)) Output: 50B
-//console.log(cashSuffixes(50060000000)) Output: 50.06B
-//console.log(cashSuffixes(50500013502)) Output: 50.50B
-//console.log(cashSuffixes(50500013502, 5)) Output: 50.50001B
-//console.log(cashSuffixes(50568200000, 10)) Output: 50.5682BB
-//console.log(cashSuffixes(50000000000)) Output: 50B
