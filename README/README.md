@@ -3,8 +3,8 @@
 ### **function ย่อค่าเงิน TypeScript และ JavaScript**
 Wiki fandom: [Cash Suffixes](https://minershaven.fandom.com/wiki/Cash_Suffixes)
 
-**Function cashSuffixes TypeScript [cashSuffixes.ts](TypeScript/cashSuffixes.ts)<br>
-Function cashSuffixes JavaScript [cashSuffixes.js](JavaScript/cashSuffixes.js)**
+**Function cashSuffixes TypeScript [cashSuffixes.ts](../TypeScript/cashSuffixes.ts)<br>
+Function cashSuffixes JavaScript [cashSuffixes.js](../JavaScript/cashSuffixes.js)**
 
 - ถ้า cashSuffixes(0) จะได้ผลลัพธ์ 0
 - ถ้า cashSuffixes(10) จะได้ผลลัพธ์ 16
