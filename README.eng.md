@@ -1,21 +1,23 @@
 # Cash Suffixes TypeScript
 
-### **function ย่อค่าเงิน TypeScript และ JavaScript**
-Wiki fandom: [Cash Suffixes](https://minershaven.fandom.com/wiki/Cash_Suffixes)
+### **function cashSuffixes TypeScript and JavaScript**
+**Wiki fandom:** [Cash Suffixes](https://minershaven.fandom.com/wiki/Cash_Suffixes)
+
+**Thai Sub :** [README.th.md](README.th.md)
 
 **Function cashSuffixes TypeScript [cashSuffixes.ts](TypeScript/cashSuffixes.ts)<br>
 Function cashSuffixes JavaScript [cashSuffixes.js](JavaScript/cashSuffixes.js)**
 
-- ถ้า cashSuffixes(0) จะได้ผลลัพธ์ 0
-- ถ้า cashSuffixes(10) จะได้ผลลัพธ์ 16
-- ถ้า cashSuffixes(100) จะได้ผลลัพธ์ 195
-- ถ้า cashSuffixes(1200) จะได้ผลลัพธ์ 1.2k
-- ถ้า cashSuffixes(55000)  จะได้ผลลัพธ์ 55k
-- ถ้า cashSuffixes(956243) จะได้ผลลัพธ์ 956.24k
-- ถ้า cashSuffixes(1060715) จะได้ผลลัพธ์ 1.06M
-- ถ้า cashSuffixes(5054098846) จะได้ผลลัพธ์ 5.05B
+- if `cashSuffixes(0)` will get results `0`
+- if `cashSuffixes(10)` will get results `16`
+- if `cashSuffixes(100)` will get results `195`
+- if `cashSuffixes(1200)` will get results `1.2k`
+- if `cashSuffixes(55000)`  will get results `55k`
+- if `cashSuffixes(956243)` will get results `956.24k`
+- if `cashSuffixes(1060715)` will get results `1.06M`
+- if `cashSuffixes(5054098846)` will get results `5.05B`
 
-**ตัวอย่างการใช้งาน :<br>**
+**Example :<br>**
 1. ```js
    console.log(cashSuffixes(50000000000))
    //Output: 50B
@@ -49,7 +51,8 @@ Function cashSuffixes JavaScript [cashSuffixes.js](JavaScript/cashSuffixes.js)**
    //Output: 505.682000154655undefined
    ```
 
-เพิ่มค่าเงินตรง types ได้เท่าไหร่ก็ได้ หรือจะเปลี่ยนเป็น ตัวอย่างเช่น<br>
+Add a cash suffix that variable `types` can be as many as you want.<br>
+**Example :**<br>
 ```js
 const types = ['', 'k', 'M', 'B', 'T', 'qd', 'Qn', 'sx', 'Sp', 'O', 'N'];
 ```
